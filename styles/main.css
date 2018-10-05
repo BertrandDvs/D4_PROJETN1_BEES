@@ -1,7 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Poppins');
+
 body {
-  background : rgb(210, 213, 51);
+  background : rgb(32, 32, 32);
 }
 
-h1 {
-  
+
+
+footer {
+  text-align: center;
+
+}
+
+video {
+  display: flex;
+
+}
+
+.img {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.button {
+  text-align: center;
+  padding-top: 50px;
 }
