@@ -107,16 +107,23 @@ margin-left: 10px; */
 }
 
 .direction {
-  text-align: center;
+text-align: center;
   margin-top: 1px;
   transition: 5s;
-  position: fixed bottom center;
+  bottom: 0;
+  position: fixed center;
 }
-
 
 
 .element {
 position: fixed;
 bottom: 0;
 right: 0;
+}
+
+audio {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  
 }
