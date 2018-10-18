@@ -110,4 +110,13 @@ margin-left: 10px; */
   text-align: center;
   margin-top: 1px;
   transition: 5s;
+  position: fixed bottom center;
+}
+
+
+
+.element {
+position: fixed;
+bottom: 0;
+right: 0;
 }
