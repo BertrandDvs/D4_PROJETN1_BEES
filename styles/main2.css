@@ -114,6 +114,11 @@ text-align: center;
   position: fixed center;
 }
 
+.control {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
 
 .element {
 position: fixed;
@@ -125,4 +130,8 @@ audio {
   position: fixed;
   bottom: 0;
   left: 0;
+}
+
+.control {
+text-decoration: none;
 }
