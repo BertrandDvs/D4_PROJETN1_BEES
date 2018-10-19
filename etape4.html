@@ -41,13 +41,13 @@
       <a href="index.html"><img src="images/droite.png" alt="" onmouseover="this.src='images/droiteh.png';" onmouseout="this.src='images/droite.png';"></a>
     </div>
 
-    <div class="element"> <a href="bang.html"> <img src="images/bang.png" alt="" onmouseover="this.src='images/banghover.png';" onmouseout="this.src='images/bang.png';"> </a> </div>
-
-
-    <audio controls="controls">
-      <source src="audio/bourvil.mp3" type="audio/mp3" />
-      Votre navigateur n'est pas compatible
+    <div class="element"> <a href="bang.html"> <img src="images/bang.png" alt="" onmouseover="this.src='images/banghover.png';" onmouseout="this.src='images/bang.png';"> </a>
+    <audio id="audioPlayer">
+        <source src="audio/bourvil.mp3">
     </audio>
+<img class="control" onclick="play('audioPlayer', this)" src="images/play.png" onmouseover="this.src='images/pause.png';" onmouseout="this.src='images/play.png';"></img>
+</div>
+
 
   </body>
 </html>
